@@ -43,7 +43,7 @@ skeema-push:
 skeema-pull:
 	(cd schemas/${DIR}/; \
 	date >> .skeema.log; \
-	eval skeema pull -proot ${ENV} >> .skeema.log)
+	eval skeema pull -proot ${ENV} >> .skeema.log;)
 
 # sakilaデータのインポート
 import-sakila:
