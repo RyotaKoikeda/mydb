@@ -1,0 +1,5 @@
+BEGIN;
+
+ALTER TABLE dummy_users ADD COLUMN email VARCHAR(255);
+
+COMMIT;

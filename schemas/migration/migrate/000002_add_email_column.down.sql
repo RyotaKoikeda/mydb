@@ -1,0 +1,5 @@
+BEGIN;
+
+ALTER TABLE dummy_users DROP COLUMN email;
+
+COMMIT;
